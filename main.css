@@ -109,7 +109,13 @@ a {
     font-family: 'Red Hat Display';
     font-size: 12px;
     box-shadow: 5px 15px 5px hsl(230, 19%, 94%);
+    cursor:pointer;
 }
+
+.btn:hover  {
+    background-color: hsl(223, 88%, 37%) ;
+}
+
 
 .cancel {
     margin: 15px auto;
