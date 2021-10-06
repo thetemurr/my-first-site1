@@ -124,7 +124,40 @@ a {
     font-weight: 700;
 }
 
+/* Media section styles */
 
+@media only screen and (max-width:576px) {
+
+ body {
+     background-image: url('./images/pattern-background-mobile.png');
+     background-size: cover;
+     background-position: center;
+     font-family: 'Red Hat Display';
+     text-align: center;
+ }
+
+ main {
+    margin: auto;
+    height: 90%;
+}
+
+.description {
+    margin-top: 11px;
+}
+
+.description p.text {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.btn {
+    width: 80%;
+    padding: 14px 20px;
+    font-size: 14px;
+}
+
+}
 
 
 
